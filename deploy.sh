@@ -1,5 +1,7 @@
 set -ex
 
+du -h Build/*
+
 message=$@
 
 echo  "$message"
